@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #f8ede3;
+  font-family: "Noto Sans", sans-serif;
+}
+
+article {
+}
+article ul {
+  background-color: #dfd3c3;
+  border-radius: 16px;
+  display: inline-block;
+  width: fit-content;
+  padding: 16px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+ul li {
+  list-style-type: none;
+  border: 1px solid #d0b8a8;
+  background-color: #d0b8a8;
+  border-radius: 12px;
+  display: inline-block;
+  max-width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  min-width: 350px;
+}
+ul div {
+  padding: 12px;
+}
+
+img {
+  /* border-radius: 100%; */
+  height: 100%;
+  width: 100%;
+  border-radius: 8px 0 0 8px;
+  object-fit: cover;
+}
+.chip {
+  background-color: #7d6e83;
+  color: white;
+  width: auto;
+  display: inline;
+  padding: 5px 16px;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 14px;
+}
